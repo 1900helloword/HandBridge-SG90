@@ -1,0 +1,30 @@
+# Keil user settings
+*.uvguix.*
+*.uvgui.*
+
+# Keil build output
+*.o
+*.obj
+*.d
+*.crf
+*.lst
+*.map
+*.lnp
+*.sct
+*.dep
+*.axf
+*.elf
+*.htm
+*.html
+
+# Keep the distributable firmware image
+!MDK-ARM/Servo_Protocol_Conversion/Servo_Protocol_Conversion.hex
+
+# Editor and OS files
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+Desktop.ini
